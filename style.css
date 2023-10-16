@@ -1,5 +1,5 @@
 *{
-    padding: 0;
+    padding: 1;
     margin: 0;
     box-sizing: border-box;
 }
@@ -7,10 +7,9 @@
 #topbackground{
     background-image: url(./img/pattern.png);
     padding-top: 0;
-    background-attachment: fixed;
-    background-repeat: repeat-x;
     background-color: rgb(68, 178, 247);
     height: 175px;
+    background-attachment: local;
 
 }
 
@@ -19,4 +18,57 @@
     width: 300px;
     padding-top: 85px;
 
+}
+
+
+#titolo{
+    font-size: 75px;
+
+}
+
+#scrittatras{
+    color: rgba(8, 8, 8, 0.548);
+    font-size: 25px;
+    
+}
+
+#scrittablu{
+    color: rgb(68, 178, 247) ;
+    font-size: 25px;
+}
+
+#data{
+    font-size: 15px;
+    color: rgba(8, 8, 8, 0.548);
+}
+
+div{
+    padding-top: 25px;
+}
+
+.evidgiallo{
+    background-color: yellow;
+}
+
+#table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#thblu{
+    background-color: rgb(44, 148, 233);
+    height: 20px;
+    color: white;
+    text-align: left;
+}
+
+.tdazzurro{
+    background-color: rgb(151, 220, 247);
+    height: 65px;
+    padding: 0;
+}
+
+td{
+    text-align: left;
+    width: 30px;
 }
