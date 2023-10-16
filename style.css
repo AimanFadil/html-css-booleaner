@@ -3,3 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+#topbackground{
+    background-image: url(./img/pattern.png);
+    padding-top: 0;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-color: rgb(68, 178, 247);
+    height: 175px;
+
+}
+
+#logo{
+    padding-left: 5px;
+    width: 300px;
+    padding-top: 85px;
+
+}
